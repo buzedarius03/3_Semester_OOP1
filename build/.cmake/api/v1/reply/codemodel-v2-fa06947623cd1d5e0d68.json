@@ -1,0 +1,216 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "framework",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-framework-Debug-308e10f56f9c91364e93.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "framework",
+					"targetIndexes" : 
+					[
+						0,
+						2
+					]
+				},
+				{
+					"build" : "framework/external/sfml",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-framework.external.sfml-Debug-d918295917e6456975bc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.2"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "framework/external/sfml"
+				},
+				{
+					"build" : "framework/external/sfml/src/SFML",
+					"childIndexes" : 
+					[
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-framework.external.sfml.src.SFML-Debug-89a9bf6b4eb4b05e7f53.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.2"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "framework/external/sfml/src/SFML"
+				},
+				{
+					"build" : "framework/external/sfml/src/SFML/System",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-framework.external.sfml.src.SFML.System-Debug-48019c4b63d6a60f4baf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.2"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "framework/external/sfml/src/SFML/System",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "framework/external/sfml/src/SFML/Network",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-framework.external.sfml.src.SFML.Network-Debug-5e6d6d612b5407e11890.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.2"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "framework/external/sfml/src/SFML/Network",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cascadia-server",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "OOP1_framework",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "SFML",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "OOP1_framework::@217a96c3a62328a73ef4",
+					"jsonFile" : "target-OOP1_framework-Debug-b9ec418e257e596cc2db.json",
+					"name" : "OOP1_framework",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cascadia-server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cascadia-server-Debug-073be719c668df0b2bc4.json",
+					"name" : "cascadia-server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "example_client::@217a96c3a62328a73ef4",
+					"jsonFile" : "target-example_client-Debug-8df73982da811fd01dab.json",
+					"name" : "example_client",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "sfml-network::@c0343bec1d0155e2b7e1",
+					"jsonFile" : "target-sfml-network-Debug-052b585c280cca8114e3.json",
+					"name" : "sfml-network",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "sfml-system::@61e52fe2b376ab479238",
+					"jsonFile" : "target-sfml-system-Debug-3925fe7dba752df24aa7.json",
+					"name" : "sfml-system",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/student/Desktop/oop1ws23_a0_015/build",
+		"source" : "/home/student/Desktop/oop1ws23_a0_015"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

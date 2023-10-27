@@ -1,0 +1,1 @@
+/usr/bin/g++ -g "CMakeFiles/cascadia-server.dir/src/main.cpp.o" -o cascadia-server  framework/libOOP1_framework.a framework/external/sfml/lib/libsfml-network-s-d.a framework/external/sfml/lib/libsfml-system-s-d.a -lpthread -lrt 
